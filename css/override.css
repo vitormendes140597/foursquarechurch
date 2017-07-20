@@ -1,0 +1,23 @@
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-default {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.full__screen {
+    width: 100%;
+    min-width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}

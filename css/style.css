@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'MyRiad-Regular';
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+.header__logo--left {
+    height: 50px;
+    margin-left: 70px;
+}
+
+.header__title {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'MyRiad-Regular';
+}
+
+.header__title:first-child {
+    font-weight: bold;
+}
+
+.header__title--bold {
+    font-weight: bold;
+}
