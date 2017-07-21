@@ -3,6 +3,11 @@
     src: url("../fonts/MyriadPro-Regular.otf");
 }
 
+@font-face {
+    font-family: 'MyRiad-Bold';
+    src: url('../fonts/MyriadPro-Bold.otf');
+}
+
 .header__logo--left {
     height: 50px;
     margin-left: 70px;
@@ -22,4 +27,71 @@
 
 .header__title--bold {
     font-weight: bold;
+}
+
+.footer {
+    min-height: 150px;
+    background: #2C3E50;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer .social__link {
+    display: block;
+    height: inherit;
+    text-decoration: none;
+}
+
+.footer svg {
+    width: 32px;
+    height: inherit;
+    display: block;
+    margin: 0 auto;
+    fill: #fff;
+}
+
+
+.footer .facebook {
+    width: 50px;
+    height: 50px;
+    background: #3b5998;
+    border-radius: 100px;
+}
+
+.footer .instagram {
+    width: 50px;
+    height: 50px;
+    background: #125688;
+    border-radius: 100px;
+}
+
+.footer .instagram svg {
+    width: 25px;
+}
+
+.footer > div {
+    margin: 0px 20px;
+    margin-top: 20px;
+}
+
+.footer__title {
+    margin-top: 0;
+    line-height: 0;
+    text-align: center;
+    font-family: 'MyRiad-Bold';
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    font-size: 24px;
+}
+
+.social__title {
+    color: #fff;
+    font-family: 'MyRiad-Bold';
+    letter-spacing: 1px;
+    font-size: 18px;
 }
