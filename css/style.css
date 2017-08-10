@@ -8,90 +8,105 @@
     src: url('../fonts/MyriadPro-Bold.otf');
 }
 
-.header__logo--left {
-    height: 50px;
-    margin-left: 70px;
+.main-header {
+    background: #8E44AD;
+    min-height: 630px;
 }
 
-.header__title {
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'MyRiad-Regular';
-}
-
-.header__title:first-child {
-    font-weight: bold;
-}
-
-.header__title--bold {
-    font-weight: bold;
-}
-
-.footer {
-    min-height: 150px;
-    background: #2C3E50;
+.menu {
     width: 100%;
-    padding: 20px;
+    margin-top: 50px;
+}
+
+.menu__options {
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
+    list-style-type: none;
 }
 
-.footer .social__link {
-    display: block;
-    height: inherit;
+.menu__options li a {
     text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: #fff;
+    font-family: 'MyRiad-Regular';
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
-.footer svg {
-    width: 32px;
-    height: inherit;
+.menu__options li a:hover {
+   border-bottom: 2px solid #4E2875;
+}
+
+.center-section {
+    margin-top: 80px;
+}
+
+.logo {
+    width: 300px;
     display: block;
     margin: 0 auto;
-    fill: #fff;
 }
 
-
-.footer .facebook {
-    width: 50px;
-    height: 50px;
-    background: #3b5998;
-    border-radius: 100px;
-}
-
-.footer .instagram {
-    width: 50px;
-    height: 50px;
-    background: #125688;
-    border-radius: 100px;
-}
-
-.footer .instagram svg {
-    width: 25px;
-}
-
-.footer > div {
-    margin: 0px 20px;
-    margin-top: 20px;
-}
-
-.footer__title {
-    margin-top: 0;
-    line-height: 0;
+.center-section__main__title {
+    margin-bottom: 0;
     text-align: center;
     font-family: 'MyRiad-Bold';
     color: #fff;
-    position: absolute;
-    top: 30px;
-    font-size: 24px;
 }
 
-.social__title {
-    color: #fff;
+.center-section__second__title {
+    margin-top: 0;
+    text-align: center;
     font-family: 'MyRiad-Bold';
-    letter-spacing: 1px;
-    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
 }
+
+.center-section__schedule {
+    border-radius: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 17px 20px;
+    font-family: 'MyRiad-Bold';
+    background: #4E2875;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.center-section__schedule:hover {
+    background: #000;
+    color: #fff;
+}
+
+/*News Section*/
+.news-section {
+    margin-top: 50px;
+}
+
+.news-bar {
+    width: 100%;
+    background: #4E2875;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.news-bar-title {
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'MyRiad-Bold';
+}
+
+.see-more {
+    margin: 10px;
+}
+
+.see-more a {
+    color: #fff;
+    font-family: 'MyRiad-Regular';
+}
+
+/*End News Section*/
