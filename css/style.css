@@ -8,6 +8,16 @@
     src: url('../fonts/MyriadPro-Bold.otf');
 }
 
+fieldset {
+    padding: .35em .625em .75em;
+    margin: 0 2px;
+    border: 1px solid silver;
+}
+
+legend {
+    width: auto;
+    border-bottom: none;
+}
 .main-header {
     background: #8E44AD;
     min-height: 630px;
@@ -151,6 +161,63 @@
     color: #000;
 }
 
+.form-title {
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'MyRiad-Regular';
+}
+
+.home-login-form {
+    border-radius: 10px;
+}
+
+.palavra-diaria {
+    width: 100%;
+    position: relative;
+    height: 300px;
+    padding: 0px 200px;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.palavra-diaria:before {
+    background-image: url('../img/home_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content:'';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.palavra-diaria > .title {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 29px;
+    font-family: 'MyRiad-Bold';
+}
+
+.palavra-diaria > .content {
+    color: #fff;
+    font-family: 'MyRiad-Regular';
+    font-weight: lighter;
+    text-align: center;
+}
+
+.palavra-diaria > .reference {
+    color: #fff;
+    font-family: 'MyRiad-Regular';
+    font-weight: lighter;
+    font-size: 13px;
+}
 
 @media only screen and (max-width: 992px) {
     .news-item.left {
@@ -160,4 +227,14 @@
     .news-item.right {
         padding-left: 0px;
     }
+
+    .palavra-diaria {
+        padding: 0px 50px;
+    }
+}
+
+@media only screen and (max-width: 486px) {
+   .palavra-diaria {
+        padding: 0px 10px;
+    } 
 }
