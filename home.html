@@ -7,9 +7,11 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </head>
-<body>
+<body  data-spy="scroll" data-target="call-schedule" data-offset="50">
     <header class="container-fluid main-header">
         <div class="menu">
             <ul class="menu__options">
@@ -34,7 +36,7 @@
             <img src="img/logo_horizontal.png" alt="Igreja do Evangelho Quandrangular Maricá" class="logo fadeInLeft">
             <h1 class="center-section__main__title">Igreja do Evangelho Quadrangular</h1><br>
             <h2 class="center-section__second__title">Maricá</h2>
-            <button class="center-section__schedule btn">Programação</button>
+            <a href="#schedule" class="center-section__schedule btn" id="call-schedule">Programação</a>
         </div>
     </header>
     <section class="container news-section">
@@ -104,6 +106,83 @@
       será contra nós? Aquele que não poupou seu próprio filho, mas o entregou por todos nós,
       como não nos dará com ele, e de graça, todas as coisas?</p>
       <h4 class="reference">Romanos 8:31-32</h4>
+    </section>
+    <section class="container schedule" id="schedule">
+      <h1 class="area-title">Agenda de Cultos</h1>
+      <h2 class="area-subtitle">Confira a agenda de cultos da IEQ Maricá</h2>
+      <div class="schedule-itens">
+        <div class="col-md-3">
+          <div class="schedule-item">
+            <h2 class="week-day">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" class="calendar-icon"><path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1" /></svg>
+            Domingo
+            </h2>
+            <strong>- 08:30</strong>  
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="schedule-item">
+            <h2 class="week-day">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" class="calendar-icon"><path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1" /></svg>
+            Segunda
+            </h2>
+            <strong>- 08:30</strong>  
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="schedule-item">
+            <h2 class="week-day">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" class="calendar-icon"><path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1" /></svg>
+            Terça
+            </h2>
+            <strong>- 08:30</strong>  
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="schedule-item">
+            <h2 class="week-day">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" class="calendar-icon"><path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1" /></svg>
+            Quarta
+            </h2>
+            <strong class="cultoHorario">- 08:30</strong> 
+            <span class="cultoTema">Culto De Jovens (3º Domingo)</span>
+            <span class="cultoTema">Culto De Jovens (3º Domingo)</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="schedule-item">
+            <h2 class="week-day">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" class="calendar-icon"><path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1" /></svg>
+            Quinta
+            </h2>
+            <strong class="cultoHorario">- 08:30</strong> 
+            <span class="cultoTema">Culto De Jovens (3º Domingo)</span>
+            <span class="cultoTema">Culto De Jovens (3º Domingo)</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="schedule-item">
+            <h2 class="week-day">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" class="calendar-icon"><path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1" /></svg>
+            Sexta
+            </h2>
+            <strong class="cultoHorario">- 08:30</strong> 
+            <span class="cultoTema">Culto De Jovens (3º Domingo)</span>
+            <span class="cultoTema">Culto De Jovens (3º Domingo)</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="schedule-item">
+            <h2 class="week-day">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" class="calendar-icon"><path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1" /></svg>
+            Sábado
+            </h2>
+            <strong class="cultoHorario">- 08:30</strong> 
+            <span class="cultoTema">Culto De Jovens (3º Domingo)</span>
+            <span class="cultoTema">Culto De Jovens (3º Domingo)</span>
+          </div>
+        </div>
+      </div>
     </section>
 </body>
 </html>

@@ -9,7 +9,4 @@ window.onload = function() {
 	}
 
 	loadImages('news-image');
-
-	
-
 };

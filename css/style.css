@@ -8,6 +8,9 @@
     src: url('../fonts/MyriadPro-Bold.otf');
 }
 
+body {
+    position: relative;
+}
 fieldset {
     padding: .35em .625em .75em;
     margin: 0 2px;
@@ -50,6 +53,7 @@ legend {
 
 .center-section {
     margin-top: 80px;
+    text-align: center;
 }
 
 .logo {
@@ -75,8 +79,6 @@ legend {
 
 .center-section__schedule {
     border-radius: 200px;
-    display: block;
-    margin: 0 auto;
     padding: 17px 20px;
     font-family: 'MyRiad-Bold';
     background: #4E2875;
@@ -218,6 +220,64 @@ legend {
     font-weight: lighter;
     font-size: 13px;
 }
+
+.area-title {
+    text-align: center;
+    font-family: 'MyRiad-Bold';
+}
+
+.area-subtitle {
+    text-align: center;
+    font-family: 'MyRiad-Regular';
+    font-size: 19px;
+}
+
+.schedule {
+    margin-top: 45px;
+}
+
+.schedule-itens {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.calendar-icon {
+    width: 30px;
+}
+
+.week-day {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.week-day > svg {
+    margin: 0px 15px;
+}
+
+.schedule-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0px 20px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.cultoHorario {
+    font-size: 15px;
+}
+
+.cultoTema {
+    display: block;
+    padding-left: 20px;
+    font-size: 14px;
+}
+/*
+.schedule-item*/
 
 @media only screen and (max-width: 992px) {
     .news-item.left {
