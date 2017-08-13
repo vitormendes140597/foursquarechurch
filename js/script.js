@@ -9,4 +9,12 @@ window.onload = function() {
 	}
 
 	loadImages('news-image');
+
+	$('.menu-icon').click(function(){
+		$('.menu-responsive').fadeIn();
+	});
+
+	$('.menu-close-icon svg').click(function(){
+		$('.menu-responsive').fadeOut();
+	});
 };

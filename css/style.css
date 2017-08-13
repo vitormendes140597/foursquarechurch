@@ -276,8 +276,65 @@ legend {
     padding-left: 20px;
     font-size: 14px;
 }
-/*
-.schedule-item*/
+
+.menu-icon {
+    width: 30px;
+    fill: #fff;
+}
+
+.menu-responsive-icon {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    margin-top: 20px;
+    padding: 0px 15px;
+}
+
+.menu-responsive {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: #8E44AD;
+    z-index: 2;
+    display: none;
+}
+
+.menu-close-icon {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.menu-close-icon > svg {
+    width: 30px;
+    fill: #fff;
+    cursor: pointer;
+}
+
+.menu-logo {
+    width: 110px;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu-options ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu-option a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'MyRiad-Regular';
+    font-size: 18px;
+    text-align: center;
+}
 
 @media only screen and (max-width: 992px) {
     .news-item.left {
@@ -297,4 +354,13 @@ legend {
    .palavra-diaria {
         padding: 0px 10px;
     } 
+}
+
+@media only screen and (max-width: 767px) {
+    .center-section {
+        margin-top: 45px; 
+    }
+    .main-header {
+        min-height: 520px;
+    }
 }
