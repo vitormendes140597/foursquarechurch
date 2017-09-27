@@ -24,7 +24,7 @@
             <a href="#">Grupos Missionários</a>
             <a href="#">Programação</a>
             <a href="#">Galeria</a>
-            <a href="#">Contato</a>
+            <a href="contato.php">Contato</a>
           </li>
         </ul>
       </div>
@@ -48,7 +48,7 @@
                    <a href="#">Galeria</a>
                </li>
                <li>
-                    <a href="#">Contato</a>   
+                    <a href="contato.php">Contato</a>   
                </li>
             </ul>
         </div>
@@ -71,6 +71,11 @@
               <a href="#">
                 <div class="news-image" data-bg="img/t.jpg"></div>
                 <h2 class="news-title">MARCA INAUGURA CASA EM SP COM SALÃO DE BELEZA GRATUITO E WORKSHOPS</h2>
+                <div class="news-db-info">
+                  <span>02 de Abril</span>
+                  <span>-</span>
+                  <span>14:34</span>
+                </div>
                 <p class="news-pre-text">A ideia é incentivar a mulher brasileira a “descobrir força em sua beleza”. O projeto também marca o lançamento da linha Cachos Hidra-Vitaminados, que tem como embaixadora a atriz Sheron Menezes.</p>
               </a>
           </div>
@@ -78,6 +83,11 @@
              <a href="#">
               <div class="news-image" data-bg="img/t.jpg"></div>
               <h2 class="news-title">MARCA INAUGURA CASA EM SP COM SALÃO DE BELEZA GRATUITO E WORKSHOPS</h2>
+              <div class="news-db-info">
+                  <span>02 de Abril</span>
+                  <span>-</span>
+                  <span>14:34</span>
+              </div>
               <p class="news-pre-text">A ideia é incentivar a mulher brasileira a “descobrir força em sua beleza”. O projeto também marca o lançamento da linha Cachos Hidra-Vitaminados, que tem como embaixadora a atriz Sheron Menezes.</p>
             </a>
           </div>
@@ -85,6 +95,11 @@
               <a href="#">
                 <div class="news-image" data-bg="img/t.jpg"></div>
                 <h2 class="news-title">MARCA INAUGURA CASA EM SP COM SALÃO DE BELEZA GRATUITO E WORKSHOPS</h2>
+                <div class="news-db-info">
+                  <span>02 de Abril</span>
+                  <span>-</span>
+                  <span>14:34</span>
+                </div>
                 <p class="news-pre-text">A ideia é incentivar a mulher brasileira a “descobrir força em sua beleza”. O projeto também marca o lançamento da linha Cachos Hidra-Vitaminados, que tem como embaixadora a atriz Sheron Menezes.</p>
               </a>
           </div>
@@ -92,6 +107,11 @@
              <a href="#">
               <div class="news-image" data-bg="img/t.jpg"></div>
               <h2 class="news-title">MARCA INAUGURA CASA EM SP COM SALÃO DE BELEZA GRATUITO E WORKSHOPS</h2>
+              <div class="news-db-info">
+                  <span>02 de Abril</span>
+                  <span>-</span>
+                  <span>14:34</span>
+              </div>
               <p class="news-pre-text">A ideia é incentivar a mulher brasileira a “descobrir força em sua beleza”. O projeto também marca o lançamento da linha Cachos Hidra-Vitaminados, que tem como embaixadora a atriz Sheron Menezes.</p>
             </a>
           </div>
@@ -204,5 +224,16 @@
         </div>
       </div>
     </section>
+    <footer>
+      <h3 class="title">Igreja do Envangelho Quadrangular - Maricá</h3>
+        <div class="socials">
+          <a href="#" class="social">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z" /></svg>
+          </a>
+          <a href="#" class="social">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" /></svg>
+          </a>
+        </div>
+    </footer>
 </body>
 </html>

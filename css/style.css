@@ -45,6 +45,7 @@ legend {
     font-family: 'MyRiad-Regular';
     font-size: 18px;
     letter-spacing: 1px;
+    border-bottom: 2px solid transparent;
 }
 
 .menu__options li a:hover {
@@ -114,6 +115,14 @@ legend {
     font-family: 'MyRiad-Bold';
 }
 
+.news-db-info > span:first-child {
+    margin-left: 0px;
+}
+
+.news-db-info > span{
+    color: #6f6f6f;
+}
+
 .see-more {
     margin-right: 20px;
 }
@@ -156,11 +165,13 @@ legend {
     font-family: 'MyRiad-Bold';
     font-size: 22px;
     color: #000;
+    margin-bottom: 5px;
 }
 
 .news-pre-text {
     font-family: 'MyRiad-Regular';
     color: #000;
+    margin-top: 5px;
 }
 
 .form-title {
@@ -186,6 +197,7 @@ legend {
     flex-direction: column;
 }
 .palavra-diaria:before {
+    background-attachment: fixed;
     background-image: url('../img/home_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -336,6 +348,109 @@ legend {
     text-align: center;
 }
 
+footer {
+    background: #8E44AD;
+    padding: 20px 5px 20px 5px;
+}
+
+footer .title {
+    text-align: center;
+    color: #fff;
+    font-family: 'MyRiad-Bold';
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 0px 0px 10px 0px;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+}
+
+footer .socials .social {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer .socials .social svg {
+    width: 30px;
+    display: block;
+    margin: 0 auto;
+    fill: #8E44AD;
+}
+
+footer .socials .social:hover {
+    background: #742b92;
+}
+
+footer .socials .social svg:hover {
+    fill: #fff;
+}
+
+.floating-menu {
+    background: #8E44AD;
+    min-height: 140px;
+    padding: 20px 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+}
+
+.floating-menu-logo {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.floating-menu-list {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.floating-menu-list .menu__options {
+    margin-bottom: 0px;
+}
+
+.content {
+    margin-top: 195px;
+}
+
+.contact {
+    background-image: url('../img/pergaminho.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    width: 820px;
+}
+
+.contact-form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.form-title {
+    font-family: 'MyRiad-Bold';   
+}
+
+.contact-form .form-title {
+    text-align: center;
+}
+
 @media only screen and (max-width: 992px) {
     .news-item.left {
         padding-right: 0px;
@@ -347,6 +462,10 @@ legend {
 
     .palavra-diaria {
         padding: 0px 50px;
+    }
+
+    .floating-menu-list {
+        justify-content: center;
     }
 }
 
@@ -362,5 +481,20 @@ legend {
     }
     .main-header {
         min-height: 520px;
+    }
+
+    .floating-menu {
+        min-height: 112px;
+    }
+
+    .floating-menu-logo {
+        width: 215px;
+        position: relative;
+    }
+
+    .floating-menu .menu-responsive-icon {
+        position: absolute;
+        top: 19px;
+        right: 8px;
     }
 }
