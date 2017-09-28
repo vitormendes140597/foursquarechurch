@@ -12,23 +12,7 @@
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body  data-spy="scroll" data-target="call-schedule" data-offset="50">
-    <nav class="menu-responsive hidden-md hidden-sm hidden-lg">
-      <div class="menu-close-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M3,16.74L7.76,12L3,7.26L7.26,3L12,7.76L16.74,3L21,7.26L16.24,12L21,16.74L16.74,21L12,16.24L7.26,21L3,16.74M12,13.41L16.74,18.16L18.16,16.74L13.41,12L18.16,7.26L16.74,5.84L12,10.59L7.26,5.84L5.84,7.26L10.59,12L5.84,16.74L7.26,18.16L12,13.41Z" /></svg>
-      </div>
-      <div class="menu-options">
-        <img src="img/logo_vertical.png" alt="" class="menu-logo">
-        <ul>
-          <li class="menu-option">
-            <a href="#">Início</a>
-            <a href="#">Grupos Missionários</a>
-            <a href="#">Programação</a>
-            <a href="#">Galeria</a>
-            <a href="contato.php">Contato</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <?php include_once 'contents/menu-responsive.php'; ?>
     <header class="container-fluid main-header">
         <div class="menu-responsive-icon hidden-md hidden-lg hidden-sm">
           <?xml version="1.0" encoding="UTF-8"?><svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
@@ -224,16 +208,6 @@
         </div>
       </div>
     </section>
-    <footer>
-      <h3 class="title">Igreja do Envangelho Quadrangular - Maricá</h3>
-        <div class="socials">
-          <a href="#" class="social">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z" /></svg>
-          </a>
-          <a href="#" class="social">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" /></svg>
-          </a>
-        </div>
-    </footer>
+    <?php include_once 'contents/footer.php'; ?>
 </body>
 </html>

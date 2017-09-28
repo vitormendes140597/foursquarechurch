@@ -13,34 +13,37 @@
 </head>
 <body>
   <?php include_once 'contents/floating-menu.php'; ?>
-	<nav class="menu-responsive hidden-md hidden-sm hidden-lg">
-      <div class="menu-close-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M3,16.74L7.76,12L3,7.26L7.26,3L12,7.76L16.74,3L21,7.26L16.24,12L21,16.74L16.74,21L12,16.24L7.26,21L3,16.74M12,13.41L16.74,18.16L18.16,16.74L13.41,12L18.16,7.26L16.74,5.84L12,10.59L7.26,5.84L5.84,7.26L10.59,12L5.84,16.74L7.26,18.16L12,13.41Z" /></svg>
-      </div>
-      <div class="menu-options">
-        <img src="img/logo_vertical.png" alt="" class="menu-logo">
-        <ul>
-          <li class="menu-option">
-            <a href="#">Início</a>
-            <a href="#">Grupos Missionários</a>
-            <a href="#">Programação</a>
-            <a href="#">Galeria</a>
-            <a href="contato.html">Contato</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
+  <?php include_once 'contents/menu-responsive.php'; ?>
     <!-- Conteudo Teste -->
 
-    <section class="content">
-   	  <div class="col-md-6 contact">
+    <section class="main-content">
+   	  <div class="col-md-5 contact">
         <form class="contact-form">
           <h2 class="form-title">Envie-nos uma mensagem!</h2>
-          <input type="text" name="nome" class="form-control">
+          <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 input-group">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" class="form-control" placeholder="Ex: Vitor Henrique Mendes">
+          </div>
+          <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 input-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" class="form-control" placeholder="Ex : exemplo@hotmail.com">
+          </div>
+          <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 input-group">
+            <label for="titulo">Título</label>
+            <input type="text" name="titulo" class="form-control">
+          </div>
+          <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 input-group">
+            <textarea class="form-control" name="texto" cols="10" rows="10"></textarea>
+          </div>
+          <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 input-group">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
         </form>
       </div>
+      <div class="col-md-6 maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.9732193664527!2d-46.18736328447939!3d-23.497474084714593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd78e7547b85b%3A0xa6410414aec53c7e!2sR.+M%C3%A9m+de+S%C3%A1%2C+80+-+Jardim+Marica%2C+Mogi+das+Cruzes+-+SP%2C+08775-430!5e0!3m2!1spt-BR!2sbr!4v1506622010966" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
     </section>
-
+    <?php include_once 'contents/footer.php'; ?>
 </body>
 </html>

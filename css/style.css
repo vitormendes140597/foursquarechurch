@@ -309,7 +309,7 @@ legend {
     width: 100%;
     min-height: 100vh;
     background: #8E44AD;
-    z-index: 2;
+    z-index: 11;
     display: none;
 }
 
@@ -401,7 +401,7 @@ footer .socials .social svg:hover {
     padding: 20px 0px;
     position: fixed;
     top: 0px;
-    z-index: 2;
+    z-index: 10;
     width: 100%;
 }
 
@@ -421,34 +421,38 @@ footer .socials .social svg:hover {
     margin-bottom: 0px;
 }
 
-.content {
+.main-content {
     margin-top: 195px;
+    min-height: 750px;
 }
 
 .contact {
-    background-image: url('../img/pergaminho.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 700px;
-    width: 820px;
 }
 
 .contact-form {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    margin-top: 100px;
 }
 
 .form-title {
-    font-family: 'MyRiad-Bold';   
+    font-family: 'MyRiad-Bold';
 }
 
 .contact-form .form-title {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+.maps {
+    height: 598px;
+    display: flex;
+    align-items: center;
 }
 
 @media only screen and (max-width: 992px) {
@@ -466,6 +470,12 @@ footer .socials .social svg:hover {
 
     .floating-menu-list {
         justify-content: center;
+    }
+    .main-content {
+        margin-top: 232px;
+    }
+    .contact {
+        background-image: none;
     }
 }
 
@@ -496,5 +506,19 @@ footer .socials .social svg:hover {
         position: absolute;
         top: 19px;
         right: 8px;
+    }
+
+    .contact {
+        background-image: none;
+        width: 100%;
+    }
+
+    .main-content {
+        margin-top: 36px;
+        height: 100%;
+    }
+
+    .contact-form {
+        margin-top: 150px;
     }
 }
